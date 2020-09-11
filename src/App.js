@@ -7,6 +7,8 @@ import Financialtabbar from './components/Financialpages/Financialtabbar';
 import HeaderBar from './components/HeaderBar';
 import Expensespage from './components/Financialpages/Expensespage';
 import Incomepage from './components/Financialpages/Incomepage';
+import ProductInfo from './components/StockManagment/ProductInfo';
+import ProductManagment from './components/StockManagment/ProductManagment';
 
 
 function App() {
@@ -14,10 +16,13 @@ function App() {
   <div> 
     <BrowserRouter>
     <HeaderBar/>
-    <Financialtabbar />
+    <ProductInfo/>
+       
     <Switch>
+    
       <Route path ="/income">
       <Incomepage/>
+      <Financialtabbar />
       </Route>
     <Route path ="/expenses" >
       <Expensespage/>

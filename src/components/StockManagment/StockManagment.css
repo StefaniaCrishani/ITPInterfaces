@@ -1,35 +1,120 @@
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+/*PoductManage.jsx page css*/
 table {
-    border-collapse: collapse;
-    width: 100%;
-  }
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 300px;
+  margin-top: 50px;
+  padding-left: 20px;
+  z-index:3;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+ 
   
-  th, td {
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even){background-color: #f2f2f2}
-  
-  th {
-    background-color: #4CAF50;
-    color: white;
+}
+
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color:  #2cac4c #2cac4c  ;
+  color: white;
+}
+
+.button {
+  background-color: #2cac4c  ; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+/*side naviaion css*/
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color:  #2cac4c ;
+  color: white;
+}
+
+li a.nav:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+  .sidebar{
+   
+
+    width: 200px;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 150px;
+    background: rgba(238, 238, 238, 0.418);
+    outline-style: auto;
   }
 
-  .button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 8px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 2px 2px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-  }
-  
-  .button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  }
+  /*ProductInfo.jsx page css*/
+  .stockTable{
+    width: 500px;
+    margin-left: 600px;
+    margin-top: 10px; 
+   
+   
+   }
+   
+   .stockBtn{
+    margin-left: 125px;
+   }
+   
+   /*nave bar css*/
+   
+   
+   
+   .dashHeader{
+    color: rgb(182, 178, 178);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+   }
+   
+   .checkbox1{
+    margin-left: 90px;
+   }

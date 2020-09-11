@@ -33,7 +33,7 @@ function Financialdashboard() {
         <td>RS.3</td>
       </tr>
     </table><br></br>
-    <button class="button ">More <i class="fa fa-arrow-right"></i></button>
+    <button class="button ">More <i class="fa fa-arrow-right "></i></button>
   
   </div>
 </div>
