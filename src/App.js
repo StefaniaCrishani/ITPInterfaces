@@ -7,8 +7,8 @@ import Financialtabbar from './components/Financialpages/Financialtabbar';
 import HeaderBar from './components/HeaderBar';
 import Expensespage from './components/Financialpages/Expensespage';
 import Incomepage from './components/Financialpages/Incomepage';
-import ProductInfo from './components/StockManagment/ProductInfo';
-import ProductManagment from './components/StockManagment/ProductManagment';
+import Footer from './components/Footer';
+import Form from './component/StockManagment/Form';
 
 
 function App() {
@@ -16,21 +16,23 @@ function App() {
   <div> 
     <BrowserRouter>
     <HeaderBar/>
-    <ProductInfo/>
-       
-    <Switch>
-    
+    <Financialtabbar />
+    <Form/>
+
+    <Switch> 
       <Route path ="/income">
       <Incomepage/>
-      <Financialtabbar />
       </Route>
-    <Route path ="/expenses" >
+      <Route path ="/expenses" >
       <Expensespage/>
       </Route>
       <Route path ="/">
       <Financialdashboard/>
-      </Route></Switch>
-    
+      </Route>
+      </Switch>
+
+      <Footer/>
+     
     </BrowserRouter>
     
     

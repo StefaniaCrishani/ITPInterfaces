@@ -1,0 +1,16 @@
+.divs {
+    padding-top: 200px;
+   
+  }
+
+  .myDiv {
+    
+    background-color: lightblue;    
+    
+  }
+
+  .margin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:50%;
+  }
