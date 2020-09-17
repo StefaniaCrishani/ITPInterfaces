@@ -24,7 +24,7 @@ function Expensespage(){
     <td>RS. 10000</td>
     <td>
     <div align="right">
-    <Link to="/Financialdashboard">
+    <Link to="/Form">
               <FontAwesomeIcon icon={faEdit} color="black" className="mr-2" />
               </Link>
             <a href="#">
@@ -74,7 +74,7 @@ function Expensespage(){
     <td>RS. 10000</td>
     <td>
     <div align="right">
-    <Link to="/UpdateDelivaryToken">
+    <Link to="/Form">
               <FontAwesomeIcon icon={faEdit} color="black" className="mr-2" />
               </Link>
             <a href="#">
@@ -124,7 +124,7 @@ function Expensespage(){
     <td>RS. 10000</td>
     <td>
     <div align="right">
-    <Link to="/Financialdashboard">
+    <Link to="/Form">
               <FontAwesomeIcon icon={faEdit} color="black" className="mr-2" />
               </Link>
             <a href="#">
@@ -174,7 +174,7 @@ function Expensespage(){
     <td>RS. 10000</td>
     <td>
     <div align="right">
-    <Link to="/UpdateDelivaryToken">
+    <Link to="/Form">
               <FontAwesomeIcon icon={faEdit} color="black" className="mr-2" />
               </Link>
             <a href="#">

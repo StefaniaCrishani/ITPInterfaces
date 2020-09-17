@@ -12,9 +12,10 @@ function Incomepage(){
 <div class="acnav">
     <table>
     <tr>
-        <th>Payment Form</th>
-        <th>Description</th>
-        <th>Account</th>
+        <th>Income ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Date</th>
         <th>Amount</th>
         <th></th>
     </tr>
@@ -22,12 +23,13 @@ function Incomepage(){
     <td>Sapplier</td>
     <td>Suplier details</td>
     <td>HNB</td>
+    <td>2/01/2020</td>
     <td>RS. 10000</td>
     <td>
     <div align="right">
-    <Link to="/Form">
-              <FontAwesomeIcon icon={faEdit} color="black" className="mr-2" />
-              </Link>
+              <Link to="/Form">
+              <FontAwesomeIcon icon={faEdit} color="black" className="mr-2" /></Link>
+              
             <a href="#">
               <FontAwesomeIcon
                 icon={faTrash}
@@ -47,7 +49,7 @@ function Incomepage(){
                       </button>
                     </div>
                     <div class="modal-body">
-                      <p align="left">Do you want delete Delivary Token.</p>
+                      <p align="left">Do you want to delete.</p>
                     </div>
                     <div class="modal-footer">
                       <button
@@ -72,6 +74,7 @@ function Incomepage(){
     <td>Sapplier</td>
     <td>Suplier details</td>
     <td>HNB</td>
+    <td>2/01/2020</td>
     <td>RS. 10000</td>
     <td>
     <div align="right">
@@ -98,7 +101,7 @@ function Incomepage(){
                       </button>
                     </div>
                     <div class="modal-body">
-                      <p align="left">Do you want delete Delivary Token.</p>
+                      <p align="left">Do you want to delete.</p>
                     </div>
                     <div class="modal-footer">
                       <button
@@ -126,6 +129,7 @@ function Incomepage(){
     <td>Sapplier</td>
     <td>Suplier details</td>
     <td>HNB</td>
+    <td>2/01/2020</td>
     <td>RS. 10000</td>
     <td>
     <div align="right">
@@ -151,7 +155,7 @@ function Incomepage(){
                       </button>
                     </div>
                     <div class="modal-body">
-                      <p align="left">Do you want delete Delivary Token.</p>
+                      <p align="left">Do you want to delete.</p>
                     </div>
                     <div class="modal-footer">
                       <button
@@ -176,6 +180,7 @@ function Incomepage(){
     <td>Sapplier</td>
     <td>Suplier details</td>
     <td>HNB</td>
+    <td>2/01/2020</td>
     <td>RS. 10000</td>
     <td>
     <div align="right">
@@ -202,7 +207,7 @@ function Incomepage(){
                       </button>
                     </div>
                     <div class="modal-body">
-                      <p align="left">Do you want delete Delivary Token.</p>
+                      <p align="left">Do you want to delete.</p>
                     </div>
                     <div class="modal-footer">
                       <button

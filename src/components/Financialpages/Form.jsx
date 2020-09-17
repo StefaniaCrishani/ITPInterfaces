@@ -1,47 +1,35 @@
 import React from 'react';
+import "./Form.css";
 
 function Form(){
     return(
-<div>   
-<form class="bg" >
+<div class="acnav">   
+<div> 
+        <form className="divs" >
+        <div class="form-group" className="container mt-4"  >
+            <label for="autocomlete-input" ><b>Income ID</b></label><br></br>
+            <input type="text" class="autocomplete" id="incomeid"  placeholder="Enter payment ID"></input><br></br>
+            
+            <label ><b>Name</b></label><br></br>
+            <input type="text"class="autocomplete" id="name" placeholder="Enter payment person Name"></input><br></br>
 
-<fieldset class="fsf">
-<div class="card">
+            
+            <label for="autocomlete-input" ><b>Email</b></label><br></br>
+            <input  type="email" class="autocomplete" id="autocomplete-input" placeholder="Enter email"></input><br></br>
+            
 
-<center>
+            <label for="autocomlete-input"><b>Date</b></label><br></br>
+            <input type="date" class="autocomplete" id="date"></input><br></br>
 
-<h1>Add Income details</h1>
-    
-    <hr></hr>
-    
-    
-    <label class="name"><b>Participant NIC</b></label>
-    <input type="text1" placeholder="NIC" name="nic"><br></br></input>
-    
-	<label class="name"><b>Participant Name</b></label>
-    <input type="text1" placeholder="Name" name="name"><br></br></input>
-	
-	<label class="address"><b>Event ID</b></label>
-    <input type="text1" placeholder="Event ID" name="address"><br></br></input>
-	
-    <label class="email"><b>Email</b></label>
-    <input type="text1" placeholder="Enter Email" name="email" required><br></br></input>
-	
-    <label class="phone"><b>Contact Number</b></label>
-    <input type="text1" placeholder="Phone" name="phone"  ><br></br></input>
-    
-    <label class="age"><b>Age</b></label>
-    <input type="text1" placeholder="Age" name="age"  ><br></br></input>
-    <hr></hr>
+            
+            <label ><b>Amount</b></label><br></br>
+            <input type="numbers" class="autocomplete" id="amount" placeholder="Enter amount"></input><br></br><br></br>
+           <button className="container mt-4" className="margin" >Add</button>
 
-	
- <a href=""><button type="submit" name="submit" class="registerbtn">Add Participant</button></a>
-  
- </center>   
-</div>
+        </div>
 
-</fieldset>
 </form>
+</div>
 </div>
     );
 }

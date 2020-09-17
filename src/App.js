@@ -8,7 +8,9 @@ import HeaderBar from './components/HeaderBar';
 import Expensespage from './components/Financialpages/Expensespage';
 import Incomepage from './components/Financialpages/Incomepage';
 import Footer from './components/Footer';
-import Form from './component/StockManagment/Form';
+import Form from './components/Financialpages/Form'
+
+
 
 
 function App() {
@@ -17,14 +19,17 @@ function App() {
     <BrowserRouter>
     <HeaderBar/>
     <Financialtabbar />
-    <Form/>
 
+    
     <Switch> 
       <Route path ="/income">
       <Incomepage/>
       </Route>
       <Route path ="/expenses" >
       <Expensespage/>
+      </Route>
+      <Route path ="/form" >
+      <Form/>
       </Route>
       <Route path ="/">
       <Financialdashboard/>
