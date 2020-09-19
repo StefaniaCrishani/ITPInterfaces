@@ -8,32 +8,34 @@ import HeaderBar from './components/HeaderBar';
 import Expensespage from './components/Financialpages/Expensespage';
 import Incomepage from './components/Financialpages/Incomepage';
 import Footer from './components/Footer';
-import Form from './components/Financialpages/Form'
 
-
-
+import ProductManagment from './component/StockManagment/ProductManagment';
+import Form from './component/StockManagment/Form';
 
 function App() {
   return (
   <div> 
     <BrowserRouter>
     <HeaderBar/>
-    <Financialtabbar />
+   
+    <ProductManagment/>
+    <Financialtabbar/>
 
     
     <Switch> 
+      <Route path ="/productmng">
+      <ProductManagment/>
+      </Route>
       <Route path ="/income">
       <Incomepage/>
       </Route>
       <Route path ="/expenses" >
       <Expensespage/>
       </Route>
-      <Route path ="/form" >
+      <Route path ="/Form" >
       <Form/>
       </Route>
-      <Route path ="/">
-      <Financialdashboard/>
-      </Route>
+    
       </Switch>
 
       <Footer/>

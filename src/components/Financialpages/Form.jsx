@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Form.css";
+import {Link} from 'react-router-dom';
 
 function Form(){
     return(
@@ -24,7 +25,7 @@ function Form(){
             
             <label ><b>Amount</b></label><br></br>
             <input type="numbers" class="autocomplete" id="amount" placeholder="Enter amount"></input><br></br><br></br>
-           <button className="container mt-4" className="margin" >Add</button>
+           <Link to="/income"><button className="container mt-4" className="margin" >Add</button></Link>
 
         </div>
 
