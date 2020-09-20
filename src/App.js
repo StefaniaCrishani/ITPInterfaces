@@ -8,9 +8,7 @@ import HeaderBar from './components/HeaderBar';
 import Expensespage from './components/Financialpages/Expensespage';
 import Incomepage from './components/Financialpages/Incomepage';
 import Footer from './components/Footer';
-
-import ProductManagment from './component/StockManagment/ProductManagment';
-import Form from './component/StockManagment/Form';
+import Form from './components/Financialpages/Form';
 
 function App() {
   return (
@@ -18,14 +16,12 @@ function App() {
     <BrowserRouter>
     <HeaderBar/>
    
-    <ProductManagment/>
+    
     <Financialtabbar/>
 
     
     <Switch> 
-      <Route path ="/productmng">
-      <ProductManagment/>
-      </Route>
+      
       <Route path ="/income">
       <Incomepage/>
       </Route>
@@ -34,6 +30,9 @@ function App() {
       </Route>
       <Route path ="/Form" >
       <Form/>
+      </Route>
+      <Route path="/">
+      <Financialdashboard/>
       </Route>
     
       </Switch>
